@@ -1,52 +1,84 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
-  
-  body {
-    line-height: 1.6;
-    color: #333;
-    background: #f5f5f5;
-  }
-  
-  header {
-    background: #222;
-    color: #fff;
-    padding: 2rem 1rem;
-    text-align: center;
-  }
-  
-  header .btn {
-    margin-top: 1rem;
-    display: inline-block;
-    background: #007bff;
-    color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  section {
-    padding: 2rem 1rem;
-    max-width: 800px;
-    margin: auto;
-  }
-  
-  section h2 {
-    margin-bottom: 1rem;
-    color: #007bff;
-  }
-  
-  ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
-  }
-  
-  footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  line-height: 1.7;
+  color: #2C3E50;
+  background: linear-gradient(to bottom right, #f8f0ff, #fefefe);
+}
+
+header {
+  background: #6A0DAD;
+  color: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+header .btn {
+  margin-top: 1rem;
+  display: inline-block;
+  background: #00BFA6;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 191, 166, 0.4);
+}
+
+header .btn:hover {
+  background: #019879;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 191, 166, 0.5);
+}
+
+section {
+  padding: 3rem 1.5rem;
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  color: #6A0DAD;
+  font-size: 2rem;
+  border-left: 5px solid #6A0DAD;
+  padding-left: 0.75rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  color: #2C3E50;
+}
+
+ul li {
+  margin-bottom: 0.9rem;
+}
+
+footer {
+  background: #6A0DAD;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 4rem;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
